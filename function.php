@@ -12,7 +12,6 @@ function generatePassword($lenght, $repetition,  $acceptLetterControl, $acceptNu
 
     $allowedChar = "";
 
-
     if ($acceptLetterControl) {
         $allowedChar .= $lowerCase;
         $allowedChar .= $uppercase;
